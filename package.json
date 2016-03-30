@@ -1,7 +1,7 @@
 {
   "name": "bootstrap3-plus",
   "main": "./lib/bootstrap3-plus",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Twitter Bootstrap 3 snippetset for you Atom text editor ",
   "keywords": [
     "bootstrap",
@@ -21,6 +21,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
