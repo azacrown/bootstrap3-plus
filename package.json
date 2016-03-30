@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap3-plus",
+  "main": "./lib/bootstrap3-plus",
+  "version": "0.0.0",
+  "description": "A Twitter Bootstrap 3 snippetset for you Atom text editor ",
+  "keywords": [
+    "bootstrap",
+    "snippets",
+    "font-awesome",
+    "glyphicons",
+    "framework",
+    "css",
+    "responsive",
+    ""
+  ],
+  "activationCommands": {
+    "atom-workspace": "bootstrap3-plus:toggle"
+  },
+  "repository": "https://github.com/jonayad/bootstrap3-plus.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
