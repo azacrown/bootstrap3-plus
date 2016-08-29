@@ -12,10 +12,63 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>$1</title>
+        
+        <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
+        <!-- Open Graph: http://ogp.me/ -->
+        <meta property="fb:app_id" content="123456789">
+        <meta property="og:url" content="https://example.com/page.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Content Title">
+        <meta property="og:image" content="https://example.com/image.jpg">
+        <meta property="og:description" content="Description Here">
+        <meta property="og:site_name" content="Site Name">
+        <meta property="og:locale" content="en_US">
+        <meta property="article:author" content="">
+        <!-- More info: https://dev.twitter.com/cards/getting-started -->
+        <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@site_account">
+        <meta name="twitter:creator" content="@individual_account">
+        <meta name="twitter:url" content="https://example.com/page.html">
+        <meta name="twitter:title" content="Content Title">
+        <meta name="twitter:description" content="Content description less than 200 characters">
+        <meta name="twitter:image" content="https://example.com/image.jpg">
+        
+        <!-- Smart App Banner -->
+        <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- Disable automatic detection and formatting of possible phone numbers -->
+        <meta name="format-detection" content="telephone=no">
+
+        <!-- Add to Home Screen -->
+       <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="App Title">
+
+<!-- Touch Icons -->
+<link rel="apple-touch-icon" href="path/to/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-precomposed.png">
+<!-- iOS 8+ no longer support precomposed, only apple-touch-icon is required -->
+
+<!-- In most cases, one 180×180px touch icon in the head is enough -->
+<!-- Utilize the different icon sizes if you would want unique icons -->
+<!-- determined by device. -->
+<link rel="apple-touch-icon" sizes="57x57" href="path/to/icon@57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="path/to/icon@72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="path/to/icon@114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="path/to/icon@144.png">
+
+<!-- Startup Image ( Deprecated ) -->
+<link rel="apple-touch-startup-image" href="path/to/startup.png">
+
+       <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+       <!-- Optional theme -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+       <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,9 +80,7 @@
       <body>
 
         <!-- jQuery (Must for Bootstrap) -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <!-- Bootstrap script -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
       </body>
     </html>
     """
